@@ -1,0 +1,21 @@
+
+
+## Tips
+
+    ~ Use ctrl + shift + v can render markdown file
+
+    ~ Ctrl + H for find and repalce in vscode
+
+    ~ A standard Markdown table requires a header row, a divider row, and data rows. Always ensure there is a blank line before the table so it renders properly
+
+    ~ We should reload own libs after modifiy the libs: import importlib importlib.reload(dpf)
+## Warning
+    ~ The xlrd engine is deprecated and will be removed in a future version. Use the calamine engine instead, by setting engine='calamine'.
+    ~ Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+    ~ Since we need to dowload data from google drive so the internet is required
+
+## Useful resource
+https://github.com/0x4d31/awesome-threat-detection
+
+https://cs231n.github.io/python-numpy-tutorial/
+

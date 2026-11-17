@@ -1,0 +1,22 @@
+Commend:
+
+python -m venv .venv
+.venv\Scripts\activate
+deactivate
+python --version
+
+
+# libs installation
+python -m pip uninstall / show / install _packageName
+
+#Show list of libs
+python -m pip list
+
+#Saving 
+pip freeze > requirements.txt
+
+#Loading 
+python -m pip install -r requirements.txt
+
+#Notebooks setting 
+pip install ipykernel jupyter
