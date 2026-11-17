@@ -1,4 +1,10 @@
+## Reader Tips
 
+The main elements are 2 notebooks one is for EDA, another one is for modelling
+
+If you run the EDA notebook please make sure you have internet connections
+
+Before running any code you should install all libraries mentioned in requirements.txt
 
 ## Tips
 
@@ -9,6 +15,7 @@
     ~ A standard Markdown table requires a header row, a divider row, and data rows. Always ensure there is a blank line before the table so it renders properly
 
     ~ We should reload own libs after modifiy the libs: import importlib importlib.reload(dpf)
+
 ## Warning
     ~ The xlrd engine is deprecated and will be removed in a future version. Use the calamine engine instead, by setting engine='calamine'.
     ~ Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
@@ -19,3 +26,12 @@ https://github.com/0x4d31/awesome-threat-detection
 
 https://cs231n.github.io/python-numpy-tutorial/
 
+## Frameworks reference
+
+https://github.com/nixtla/statsforecast
+
+https://lightgbm.readthedocs.io/en/stable/
+
+https://optuna.readthedocs.io/en/v2.0.0/index.html
+
+https://scikit-learn.org/stable/
